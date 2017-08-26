@@ -4,6 +4,7 @@ import { HeroComponent } from './hero/hero.component';
 import { HeroListComponent } from './hero-list/hero-list.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,9 @@ const routes: Routes = [
   }, {
     path: 'heroes',
     component: HeroListComponent
+  },{
+    path: 'user',
+    component: UserComponent
   }, {
     path: 'heroes/:id',
     component: HeroComponent

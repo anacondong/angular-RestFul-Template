@@ -15,6 +15,7 @@ import { HeroService } from './hero.service';
 import { NavbarComponent } from './navbar/navbar.component';
 
 import { RouterModule, Routes } from '@angular/router';
+import { UserComponent } from './user/user.component';
 
 const routes: Routes = [{
   path: '',
@@ -28,7 +29,8 @@ const routes: Routes = [{
     HeroComponent,
     HeroListComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
